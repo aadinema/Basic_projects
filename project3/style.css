@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #ebe1ce;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    /* height: 150px; */
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav-part1 {
+    display: flex;
+     justify-content: space-between;
+     min-width: 45%;
+    /* background-color: black; */
+}
+
+.nav-part2 {
+    display: flex;
+    justify-content: space-between;
+    min-width: 45%;
+}
+nav h2{
+    font-size: 25px;
+    font-weight: 600;
+  
+    text-transform: capitalize;
+}
+nav h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.context{
+    min-width: 100%;
+    min-height: 70%;
+    /* background-color: chocolate; */
+    padding: 20px;
+}
+.context h1{
+    font-size: 115px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: -5px;
+}
+.context h3{
+    font-weight: 400;
+    /* text-transform: capitalize; */
+}
+.mini-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.mini-ct1{
+    display: flex;
+    gap: 50px;
+
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.img-ct{
+    width: 50%;
+    height: 60%;
+    margin-left: 50px;
+}
+img{
+    height: 28rem;
+    width: 25rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 140px;
+}
+.detail i{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 20px;
+}
